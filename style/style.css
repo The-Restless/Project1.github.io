@@ -88,6 +88,9 @@ img#img2{
 .middle_info{
 	margin:10px;
 	font-size: 20px;
+	overflow: ellipsis;
+	
+
 	
 }
 
@@ -147,6 +150,7 @@ img#img2{
 
 
 .hikebox2{
+	overflow: auto;
 	float:left;
 	background-color: rgba(83, 147, 203,.5);
     width: 100%;
@@ -158,6 +162,7 @@ img#img2{
 
 
 .hikebox2-2{
+	overflow: hidden;
 	float:left;
 	background-color: rgba(255, 255, 255,.5);
     width: 100%;
