@@ -109,6 +109,29 @@ img#img2{
 }
 
 
+.first_photo{
+	float:left;
+	background-color: #569;
+	background-image: url(../images/photos/hiking1.png);
+	background-size: cover;
+	width: 400px;
+	height: 225px; 
+	border: 0.1px solid white; 
+	border-radius: 30px;
+	margin: 10px;
+}
+
+.second_photo{
+	float:right;
+	background-color: #569;
+	background-image: url(../images/photos/japan2.png);
+	background-size: cover;
+	width: 400px;
+	height: 225px; 
+	border: 0.1px solid white; 
+	border-radius: 30px;
+	margin: 10px;
+}
 
 .hikebox1-1{
 	float:left;
@@ -182,6 +205,52 @@ img#img2{
 	height: 50px;
 }
 
+.comments{
+	display: flex; 
+	border:1px solid;
+	border-radius: 10px;
+	background-color:rgba(73, 73, 73, .5);
+	width:40%;
+	height: 300px;
+
+}
+
+
+.extrainfo{
+	margin-top: 5px;
+	padding-right: 20px;
+}
+
+.cform{
+	margin-top: 20px;
+	float: right;
+	width:850px;
+	height:200px;
+}
+
+
+
+.namebox{
+	float: left;
+	width: 40%;
+	height:30px;
+	border-radius: 10px;
+}
+
+.emailbox{
+	float: left;
+	width: 40%;
+	height:30px;
+	border-radius: 10px;
+}
+
+.commentbox{
+	float: left;
+	width: 90%;
+	height: 200px;
+	border-radius: 10px;
+}
+
 
 .link1{
 	margin: 20px;
@@ -221,4 +290,21 @@ img#img2{
 .link4:hover {
     color: lightblue;
     transition: 0.2s;
+}
+
+.first_photo:hover{
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url(../images/photos/hiking1.png);
+	transition:0.2s;
+
+}
+
+
+.second_photo:hover{
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url(../images/photos/japan2.png);
+	transition:0.2s;
+
 }
